@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/hk_wallpaper2.jpg");
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20%;
+    margin-bottom: 20%; */
+}
+
+.middle {
+    border: 1px solid black;
+    padding: 70px;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    box-shadow: 7px 7px 15px black;
+}
+
+.head {
+    text-align: center;
+    font-size: 21px;
+}
+
+.choice_button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    height: 50px;
+}
+
+.buttons {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.buttons:hover {
+    box-shadow: inset 1px 1px 8px rgb(196, 7, 7) ;
+}
+
+.buttons:active {
+    background-color: rgb(212, 222, 233);
+}
